@@ -1,13 +1,11 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 
 float f (float y){
     float x= pow(y,2) * cos (y) +1;
     return x;
 }
-
 int main() {
     float a=0, b=0, x = 0, err = 0;
     do{
