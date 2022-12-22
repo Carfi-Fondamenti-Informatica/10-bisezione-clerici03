@@ -3,13 +3,13 @@
 
 using namespace std;
 
-float f (float x){
-    float y= pow(x,2)* cos (x) +1;
+float f (float y){
+    float x= pow(y,2)* cos (y) +1;
     return y;
 }
 
 int main() {
-    float a=0, b=0, y = 0, err = 0;
+    float a=0, b=0, x = 0, err = 0;
     do{
         cout << " inserire estremi" << endl;
         cin >> a;
