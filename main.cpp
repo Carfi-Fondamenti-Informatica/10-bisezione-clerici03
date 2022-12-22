@@ -13,7 +13,7 @@ int main() {
     do{
         cout << " inserire estremi" << endl;
         cin >> a >> b;
-    }while f(a) * f(b) >= 0;
+    }while (f(a) * f(b) >= 0);
     do {
         x=(a+b)/2;
         if (f(x)==0){
