@@ -5,7 +5,7 @@ using namespace std;
 
 float f (float y){
     float x= pow(y,2) * cos (y) +1;
-    return y;
+    return x;
 }
 
 int main() {
@@ -26,7 +26,7 @@ int main() {
             }else{
                 a=x;
             }
-            err =abs((a-b)/2);
+            err =abs((b-a)/2);
         }
     }while (err>= 1e-6);
     cout << int(x*10000)/10000 << endl;
