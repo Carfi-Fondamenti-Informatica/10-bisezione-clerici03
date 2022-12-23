@@ -20,7 +20,7 @@ int main() {
             return 0;
         }
         else{
-            if(f(a) * f(b) < 0){
+            if(f(a) * f(x) < 0){
                 b = x;
             }
             else{
